@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Spotify</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#search">Search</a></li>
+                <li><a href="#library">Your Library</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1>Welcome to Spotify</h1>
+            <p>Your favorite music, all in one place.</p>
+        </section>
+        <section id="search">
+            <h2>Search</h2>
+            <input type="text" placeholder="Search for songs, artists, or albums">
+        </section>
+        <section id="library">
+            <h2>Your Library</h2>
+            <div class="playlist">
+                <h3>Liked Songs</h3>
+            </div>
+            <div class="playlist">
+                <h3>Recent Playlists</h3>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="player">
+            <div class="current-song">No song playing</div>
+            <div class="controls">
+                <button class="prev">⏮️</button>
+                <button class="play">▶️</button>
+                <button class="next">⏭️</button>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
